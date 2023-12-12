@@ -1,8 +1,9 @@
 import React from 'react'
+import css from './Button.module.css'
 
 const Button = ({url, title}) => {
   return (
-    <a href={url}>{title}</a>
+    <a href={url} className={css.link}>{title}</a>
   )
 }
 
