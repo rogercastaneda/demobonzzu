@@ -1,6 +1,8 @@
 .link {
-  padding: 10px 20px;
+  /* padding: 10px 20px;
   display: inline-block;
   border-radius: 10%;
-  background-color: whitesmoke;
+  background-color: whitesmoke; */
+  @apply py-2 px-5 inline-block rounded-md bg-slate-200;
+  @apply hover:bg-slate-600 hover:text-slate-300;
 }
